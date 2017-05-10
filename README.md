@@ -7,7 +7,7 @@ Training a sequence to sequence model on a dataset of English and French sentenc
 
 * Input
   * Word Ids:      [2, 132, 174, 11, 172]
-  * English Words: ["<UNK>", 'think', 'she', 'is', 'beautiful']
+  * English Words: [<UNK>, 'think', 'she', 'is', 'beautiful']
 
 * Prediction
   * Word Ids:      [333, 11, 249, 141, 142, 90, 167, 160, 249, 87, 48, 60, 351, 158, 1]
