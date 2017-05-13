@@ -8,19 +8,20 @@ Training a sequence to sequence model on a dataset of English and French sentenc
 'He think she is beautiful.'
 
 * Input
-  * Word Ids:      [2, 132, 174, 11, 172]
-  * English Words: ['<(UNK)>', 'think', 'she', 'is', 'beautiful']
+  * Word Ids:      [206, 172, 93, 98, 2]
+  * English Words: ['he', 'think', 'she', 'is', '<UNK>']
 
 * Prediction
-  * Word Ids:      [333, 11, 249, 141, 142, 90, 167, 160, 249, 87, 48, 60, 351, 158, 1]
-  * French Words: ['le', 'pamplemousse', 'est', 'notre', 'fruit', ',', 'mais', 'il', 'est', 'généralement', 'agréable', 'au', 'printemps', '.', '<(EOS)>']
+  * Word Ids:      [83, 220, 182, 14, 159, 99, 140, 54, 251, 1]
+  * French Words: ['nos', 'fruits', 'est', 'la', 'banane', ',', 'mais', 'mon', 'préféré.', '<EOS>']
 
-'She saw a old yellow truck .'
+
+'He saw a old yellow truck .'
 
 * Input
-  * Word Ids:      [2, 33, 32, 110, 63, 74, 144]
-  * English Words: ['<(UNK)>', 'saw', 'a', 'old', 'yellow', 'truck', '.']
+  * Word Ids:      [206, 163, 179, 25, 36, 195, 38]
+  * English Words: ['he', 'saw', 'a', 'old', 'yellow', 'truck', '.']
 
 * Prediction
-  * Word Ids:      [117, 142, 331, 249, 333, 11, 90, 158, 1]
-  * French Words: ['son', 'fruit', 'préféré', 'est', 'le', 'pamplemousse', ',', '.', '<(EOS)>']
+  * Word Ids:      [259, 165, 274, 179, 43, 196, 203, 1]
+  * French Words: ['il', 'a', 'vu', 'un', 'vieux', 'camion', '.', '<EOS>']
